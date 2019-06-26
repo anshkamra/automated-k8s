@@ -60,3 +60,6 @@ kubectl exec -i --tty load-generator --image=busybox /bin/sh
 Hit enter for command prompt
 while true; do wget -q -O- http://frontend.production.svc.cluster.local; done
 
+=======
+Create GKE K8s Cluster with Nginx Ingress Controller and deploy a stateless application with script
+>>>>>>> 69c765474b58cf749d88428c1971bc663e41f712
