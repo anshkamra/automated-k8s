@@ -1,5 +1,5 @@
 gcloud container clusters create assign --zone asia-south1-a --node-locations asia-south1-a --num-nodes 2  --enable-autoscaling --max-nodes=3 --min-nodes=2
-gcloud container clusters get-credentials assign --zone asia-south1-a --project secret-robot-218219
+gcloud container clusters get-credentials assign --zone asia-south1-a --project {PROJECT_NAME}
 kubectl create ns staging
 kubectl create ns production
 cd /tmp
